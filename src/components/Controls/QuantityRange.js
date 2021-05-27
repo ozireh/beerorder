@@ -44,6 +44,7 @@ const QuantityRange = ({ qty, setQty }) => {
 
     return (
         <div className={styles.container}>
+            
             <PrettoSlider 
                 // valueLabelDisplay="auto" 
                 value={value}
