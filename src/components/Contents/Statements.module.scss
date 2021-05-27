@@ -1,0 +1,21 @@
+@import "./../../global";
+
+.container {
+    width: 100%;
+    display: block !important;
+
+    position: relative;
+
+    & > .statement {
+        width: 100%;
+        padding: $pu;
+        padding-top: 0;
+        position: absolute;
+        text-align: center;
+        font-size: 1.25rem;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    
+    }
+}

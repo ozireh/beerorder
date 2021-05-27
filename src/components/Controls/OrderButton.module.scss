@@ -1,0 +1,48 @@
+@import "./../../global";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    padding-bottom: 55px;
+
+    justify-content: flex-end !important;
+    align-items: center;
+    .button {
+        width: 75%;
+        min-width: 315px;
+        transition: transform 0.4s;
+        cursor: pointer;
+        // padding-right: $pu !important;
+        background: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: calc(#{$pu} / 2.5);
+        padding-left: calc(#{$pu} / 1.5) !important;
+        border-radius: calc(#{$pu} / 2);
+        
+        .qty {
+            width: 32px;
+            height: 32px;
+            background: #fff;
+            color: $beerColor;
+
+            padding: calc(#{$pu} / 1.5);
+            border-radius: calc(#{$pu} / 2);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+    }
+}

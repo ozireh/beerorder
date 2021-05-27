@@ -1,0 +1,7 @@
+@import "./../../global";
+
+.container {
+    padding-left: calc(#{$pu} * 1.5);
+    padding-right: calc(#{$pu} * 1.5);
+    padding-bottom: calc(#{$pu} * 2.5);
+}

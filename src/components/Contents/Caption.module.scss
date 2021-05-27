@@ -1,0 +1,14 @@
+@import "./../../global";
+
+.container {
+    padding-top: calc(#{$pu} * 1);
+    padding-bottom: calc(#{$pu} * 2.5);
+
+    h2 {
+        padding-left:calc(#{$pu} * 1) ;
+        padding-right:calc(#{$pu} * 1) ;
+        font-weight: 700;
+        font-size: 2.25rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,26 @@
+@import "./../../global";
+
+div.container {
+    height: $headerHeight !important;
+    align-items: center;
+    position: relative;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .closeButton {
+        position: absolute;
+        margin-top: 2px;
+        left: -8px;
+        cursor: pointer;
+        transition: transform .3s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}
