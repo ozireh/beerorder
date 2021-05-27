@@ -11,7 +11,7 @@ The project is available on port [3000](http://localhost:3000/).
 
 ### General comment / Technical issues
 
-Generally this exercise went well. I haven't really encountered any major problems. The hardest part was to put all the animations together and make them more or less syncronized.
+For this exercise I decided to use React and it went pretty well: I haven't really encountered any major problems. The hardest part was to put all the animations together and make them more or less syncronized. 
 
 
 ### How I would improve the experience (If I had to)
