@@ -16,8 +16,8 @@ Generally this exercise went well. I haven't really encountered any major proble
 
 ### How I would improve the experience (If I had to)
 
-I would maybe allow an unlimited number of beers, by replacing the input range with an input number.
-I would disable the order button when it is at 0.
-I might change the color of the beer when it rises (with classic beer tones); and why not we may also be able to select several types of beers, which would influence the color of the beer.
+- I would maybe allow an unlimited number of beers, by replacing the input range with an input number.
+- I would disable the order button when it is at 0.
+- I might change the color of the beer when it rises (with classic beer tones); and why not we may also be able to select several types of beers, which would influence the color of the beer.
 
-##### 27th of May 2021, Calvin Herizo
+##### 27.05.2021, Calvin Herizo
